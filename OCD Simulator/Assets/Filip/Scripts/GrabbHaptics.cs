@@ -5,20 +5,28 @@ using UnityEngine;
 public class GrabbHaptics : MonoBehaviour
 {
     public float vibrationIntensity = 0.5f;   
-    public float vibrationDuration = 0.075f;                
+    public float vibrationDuration = 0.075f;
+    public AudioClip grabb, drop;
+    private AudioSource audioSource;
 
     private OVRInput.Controller controllerInUse;
     bool heldByLeftHand = false;
     public GrabInteractable grabbable;
 
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     public void StartPullingLever()
     {
         DetectActiveController();
+        audioSource.PlayOneShot(grabb);
     }
 
     public void StopPullingLever()
     {
-        OVRInput.SetControllerVibration(0, 0, controllerInUse);  
+        OVRInput.SetControllerVibration(0, 0, controllerInUse);
+        audioSource.PlayOneShot(drop);
     }
 
     private void TriggerHaptics()
