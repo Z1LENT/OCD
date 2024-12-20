@@ -2935,9 +2935,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.0025
-  m_Height: 0.008
+  m_Height: 0.007
   m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0.003912362}
+  m_Center: {x: 0, y: 0, z: 0.003}
 --- !u!64 &231955661
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3114,9 +3114,9 @@ GameObject:
   - component: {fileID: 235290973}
   - component: {fileID: 235290972}
   - component: {fileID: 235290974}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PizzaBox
-  m_TagString: Untagged
+  m_TagString: GrabbableOBJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6249,9 +6249,9 @@ GameObject:
   - component: {fileID: 438793934}
   - component: {fileID: 438793933}
   - component: {fileID: 438793935}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bottle (1)
-  m_TagString: Untagged
+  m_TagString: GrabbableOBJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10189,9 +10189,9 @@ GameObject:
   - component: {fileID: 747784169}
   - component: {fileID: 747784168}
   - component: {fileID: 747784170}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bottle (2)
-  m_TagString: Untagged
+  m_TagString: GrabbableOBJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10853,9 +10853,9 @@ GameObject:
   - component: {fileID: 767456738}
   - component: {fileID: 767456737}
   - component: {fileID: 767456739}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bottle (4)
-  m_TagString: Untagged
+  m_TagString: GrabbableOBJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17283,7 +17283,7 @@ GameObject:
   - component: {fileID: 1254925147}
   - component: {fileID: 1254925146}
   - component: {fileID: 1254925145}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17997,7 +17997,7 @@ GameObject:
   - component: {fileID: 1293688098}
   - component: {fileID: 1293688097}
   - component: {fileID: 1293688096}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21726,9 +21726,9 @@ GameObject:
   - component: {fileID: 1580322034}
   - component: {fileID: 1580322033}
   - component: {fileID: 1580322035}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bottle
-  m_TagString: Untagged
+  m_TagString: GrabbableOBJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22109,9 +22109,9 @@ GameObject:
   - component: {fileID: 1594222309}
   - component: {fileID: 1594222308}
   - component: {fileID: 1594222310}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bottle (3)
-  m_TagString: Untagged
+  m_TagString: GrabbableOBJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23422,9 +23422,9 @@ GameObject:
   - component: {fileID: 1648941379}
   - component: {fileID: 1648941378}
   - component: {fileID: 1648941380}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: Bottle (5)
-  m_TagString: Untagged
+  m_TagString: GrabbableOBJ
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27390,7 +27390,7 @@ GameObject:
   - component: {fileID: 1918694611}
   - component: {fileID: 1918694610}
   - component: {fileID: 1918694609}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28980,7 +28980,7 @@ GameObject:
   - component: {fileID: 2030467448}
   - component: {fileID: 2030467447}
   - component: {fileID: 2030467446}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29733,7 +29733,7 @@ GameObject:
   - component: {fileID: 2063583461}
   - component: {fileID: 2063583460}
   - component: {fileID: 2063583459}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29905,7 +29905,7 @@ GameObject:
   - component: {fileID: 2065723791}
   - component: {fileID: 2065723790}
   - component: {fileID: 2065723789}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31073,7 +31073,7 @@ GameObject:
   - component: {fileID: 2131044784}
   - component: {fileID: 2131044783}
   - component: {fileID: 2131044782}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: '[BuildingBlock] HandGrab'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32851,9 +32851,9 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.0025
-  m_Height: 0.008
+  m_Height: 0.007
   m_Direction: 2
-  m_Center: {x: 0, y: 0, z: 0.003912362}
+  m_Center: {x: 0, y: 0, z: 0.003}
 --- !u!114 &8204298830973854918
 MonoBehaviour:
   m_ObjectHideFlags: 0
