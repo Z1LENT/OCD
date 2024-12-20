@@ -15885,8 +15885,8 @@ GameObject:
   - component: {fileID: 674225591}
   - component: {fileID: 674225590}
   - component: {fileID: 674225589}
-  - component: {fileID: 674225588}
-  - component: {fileID: 674225587}
+  - component: {fileID: 674225596}
+  - component: {fileID: 674225595}
   m_Layer: 0
   m_Name: CurryPlate
   m_TagString: GrabbableOBJ
@@ -15902,14 +15902,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 674225584}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.08061588, w: 0.9967453}
-  m_LocalPosition: {x: 5.722, y: 13.044, z: -17.692}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.796, y: 13.044, z: -17.692}
   m_LocalScale: {x: 1, y: 2.3636818, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 163936524}
   m_Father: {fileID: 1334162026}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -9.248}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &674225586
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15937,50 +15937,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
---- !u!64 &674225587
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674225584}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5899475391614491685, guid: 3dfb58f22f566b1458e7d1ce6c6538bb, type: 3}
---- !u!64 &674225588
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674225584}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5899475391614491685, guid: 3dfb58f22f566b1458e7d1ce6c6538bb, type: 3}
 --- !u!82 &674225589
 AudioSource:
   m_ObjectHideFlags: 0
@@ -16223,6 +16179,48 @@ MonoBehaviour:
   installationRoutineCheckpoint:
     _installationRoutineId: 
     _installationVariants: []
+--- !u!65 &674225595
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674225584}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.42443788, y: 0.03456517, z: 0.42443806}
+  m_Center: {x: -0.0000027716158, y: 0.017282238, z: -0.00000010430813}
+--- !u!65 &674225596
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674225584}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.42443788, y: 0.03456517, z: 0.42443806}
+  m_Center: {x: -0.0000027716158, y: 0.017282238, z: -0.00000010430813}
 --- !u!1 &677851125
 GameObject:
   m_ObjectHideFlags: 0
